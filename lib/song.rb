@@ -1,8 +1,8 @@
 require 'pry'
-
+require '../config/environment'
 class Song
   extend Memorable
-  
+
   attr_accessor :name
   attr_reader :artist
 
