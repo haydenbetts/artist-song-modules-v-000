@@ -1,4 +1,5 @@
 require 'pry'
+require_relative '../config/environment'
 
 class Artist
   extend Memorable
