@@ -26,10 +26,6 @@ class Song
     name.downcase.gsub(' ', '-')
   end
 
-  def self.count
-    self.all.count
-  end
-
   def self.all
     @@songs
   end
