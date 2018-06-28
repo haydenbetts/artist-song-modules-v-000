@@ -1,9 +1,14 @@
 module Memorable
 
-  # we do not include self here. Anything
-  # that is extended will automatically be
-  # a class method
-  def count
-    self.all.count
+  module ClassMethods
+    def count
+      self.all.count
+    end
   end
+
+  module InstanceMethods
+    def initialize
+    end
+  end
+
 end
